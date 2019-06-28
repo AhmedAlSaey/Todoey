@@ -13,7 +13,8 @@
 		B13CD65622725BC200537A7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B13CD65422725BC200537A7A /* Main.storyboard */; };
 		B13CD65822725BC300537A7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B13CD65722725BC300537A7A /* Assets.xcassets */; };
 		B13CD65B22725BC300537A7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B13CD65922725BC300537A7A /* LaunchScreen.storyboard */; };
-		B1A998B0228B203A005D08D2 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B1A998AE228B203A005D08D2 /* DataModel.xcdatamodeld */; };
+		B1AFD00D22A85A7500D1A931 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1AFD00C22A85A7500D1A931 /* Category.swift */; };
+		B1AFD00F22A85A8300D1A931 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1AFD00E22A85A8300D1A931 /* Item.swift */; };
 		B1FA44F222A4DAB3003B2181 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FA44F122A4DAB3003B2181 /* CategoryViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -27,7 +28,8 @@
 		B13CD65722725BC300537A7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B13CD65A22725BC300537A7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B13CD65C22725BC300537A7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B1A998AF228B203A005D08D2 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
+		B1AFD00C22A85A7500D1A931 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		B1AFD00E22A85A8300D1A931 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		B1FA44F122A4DAB3003B2181 /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
 		F556EFDF22A5782FD7D5EF08 /* Pods-Todoey.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Todoey.debug.xcconfig"; path = "Target Support Files/Pods-Todoey/Pods-Todoey.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -86,8 +88,9 @@
 		B1519AB72289ACAD003C1A9D /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				B1A998AE228B203A005D08D2 /* DataModel.xcdatamodeld */,
 				B13CD65722725BC300537A7A /* Assets.xcassets */,
+				B1AFD00C22A85A7500D1A931 /* Category.swift */,
+				B1AFD00E22A85A8300D1A931 /* Item.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -235,8 +238,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B1FA44F222A4DAB3003B2181 /* CategoryViewController.swift in Sources */,
+				B1AFD00D22A85A7500D1A931 /* Category.swift in Sources */,
 				B13CD65322725BC200537A7A /* TodoListViewController.swift in Sources */,
-				B1A998B0228B203A005D08D2 /* DataModel.xcdatamodeld in Sources */,
+				B1AFD00F22A85A8300D1A931 /* Item.swift in Sources */,
 				B13CD65122725BC200537A7A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -439,19 +443,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		B1A998AE228B203A005D08D2 /* DataModel.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				B1A998AF228B203A005D08D2 /* DataModel.xcdatamodel */,
-			);
-			currentVersion = B1A998AF228B203A005D08D2 /* DataModel.xcdatamodel */;
-			path = DataModel.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = B13CD64522725BC200537A7A /* Project object */;
 }
